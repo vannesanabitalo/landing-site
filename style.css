@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero Section Styles */
+.hero {
+    padding: 100px 0;
+    background-color: #351901;
+    color: rgb(243, 225, 124);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.hero button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: rgb(255, 248, 154);
+    color: #3d2203;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #3d2005;
+    color: rgb(255, 243, 175);
+}
+
+/* Benefits Section Styles */
+.benefits {
+    padding: 80px 0;
+    text-align: center;
+    background-color: rgb(251, 252, 189);
+}
+
+.benefits h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.benefits .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.benefits h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.benefits p {
+    font-size: 1.1rem;
+    color: rgb(32, 19, 1);
+}
+
+/* Features Section Styles */
+.features {
+    padding: 80px 0;
+    text-align: center;
+    background-image: url("im.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.features .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.features h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.features p {
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+
+/* CTA Section Styles */
+.cta {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #1f1401;
+    color: #fff;
+}
+
+.cta h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.cta button {
+    font-size: 1.4rem;
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #3b2701;
+    color: #fff;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
